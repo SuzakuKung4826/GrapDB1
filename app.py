@@ -116,6 +116,12 @@ st.markdown(
 
 if page == "Dashboard":
     st.subheader("ภาพรวมระบบ")
+
+    st.image(
+        "Pictures/MyProfile.jpg",
+        use_container_width=True
+    )
+
     m = get_dashboard_metrics()
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Students", m.get("students", 0))
