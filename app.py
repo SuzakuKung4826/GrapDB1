@@ -119,7 +119,6 @@ if page == "Dashboard":
 
     st.image(
         "picture/MyProfile.jpg",
-        use_container_width=True
     )
 
     m = get_dashboard_metrics()
