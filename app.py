@@ -118,7 +118,7 @@ if page == "Dashboard":
     st.subheader("ภาพรวมระบบ")
 
     st.image(
-        "Pictures/MyProfile.jpg",
+        "C:\\Users\\Lenovo\\รูปภาพ\\MyProfile.jpg",
         use_container_width=True
     )
 
