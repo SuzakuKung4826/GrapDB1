@@ -126,6 +126,7 @@ if page == "Dashboard":
     st.divider()
     student_id = student_selector("dash_student")
     profile = get_profile(student_id)
+    
     if profile:
         left, right = st.columns([1, 2])
         with left:
